@@ -27,7 +27,7 @@ function App() {
           <React.Fragment key={user.id}>
              <li className='id'><b>ID:</b> {user.id}</li>
             <li className='name'><b>Name:</b> {user.name}</li>
-            <li>----------------------------------------</li>
+            <li>--------------------------------------------------------------------</li>
           </React.Fragment>
         ))}
       </ul>
